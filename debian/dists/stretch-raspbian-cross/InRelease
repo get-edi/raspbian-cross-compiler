@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: lueschem.github.io/raspbian-cross-compiler/debian
+Label: lueschem.github.io/raspbian-cross-compiler/debian
+Codename: stretch-raspbian-cross
+Date: Sun, 25 Mar 2018 17:56:07 UTC
+Architectures: amd64 armhf
+Components: main
+Description: Debian packages recompiled for Raspbian.
+MD5Sum:
+ a46220caad71ca61bff9e3c657080f24 46584 main/binary-amd64/Packages
+ 5cea030141dc7380f14b832d72ed8bbd 9891 main/binary-amd64/Packages.gz
+ 23f532aa99b756317359494e7ceb5f9f 205 main/binary-amd64/Release
+ d3c8caf027acd0ea438e156f7eea9256 91123 main/binary-armhf/Packages
+ 6c2e58afb0f04e4d295da9270484bea4 19491 main/binary-armhf/Packages.gz
+ 70c808e01e8214f6cf72f198d966dbc8 205 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 618b9ff8368a097788b586172ea9c0a6 206 main/source/Release
+SHA1:
+ 3c7d8ecc7684233e35292120e863ab04403e62d1 46584 main/binary-amd64/Packages
+ c9fdd6ee384918343be206084c619dc7014e45fe 9891 main/binary-amd64/Packages.gz
+ 9fd5377a98179e1bf53f80b35cbf403e61ade3fe 205 main/binary-amd64/Release
+ 76dc2e3d577a03cc3407751123e7b3d391c9b5ea 91123 main/binary-armhf/Packages
+ b59c34cbb9bef390a7cf159d1cd9ab53974eb287 19491 main/binary-armhf/Packages.gz
+ a9c25196317e2abacbce6c2bdf82c956642afc40 205 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 74a8fe9f52adda23f7fbe6ce4f22e5078a04c106 206 main/source/Release
+SHA256:
+ a86db3b37bd703809b66d7c63a867ec823f5f688fce295d7cdbeba7b95bac5c2 46584 main/binary-amd64/Packages
+ 21df52c767fcb618cf38bbf2dee16292a14d3ecc2ecd6b0f2048c2c59ab1dd8e 9891 main/binary-amd64/Packages.gz
+ 9aa80749db8a1b31c632e5281f9209ef96574715bf7bb9a2cd40aac2ef8f90ad 205 main/binary-amd64/Release
+ 792966f6b995c6507d23c3d8d16f1b483844252a85b299c6e9f3e1e2b4d880c0 91123 main/binary-armhf/Packages
+ ac1142f54df9e9cc57132054f1c9102695d13b78e1159dfbcdf5cf1bd178dc89 19491 main/binary-armhf/Packages.gz
+ e2ec16b0190b3256c95de0b8508eb5f4d66064729a7c02a5ac6a05e507d6fa3f 205 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ e4c34a41eedf9c37092a8e65507f40f8b3683d167d44be0b6ef8f6b835f73e24 206 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJat+K4AAoJEKAFVSkjtERCpy0IAIUutAt4eMU7orwKHj9j1+ML
+M/bfL64eM2t0ju8e0OrdGe9BYy9qkqt611vPVbOl30lkwW3S/lMddXJh3P2iCoVY
+145v2IpbpjOjR88rkSY3OJpTNYsRJIQxn7QoUweYh+2NctfVqUtNnsXc6kyLp4LS
+yxo0lFLW/73mPVuzTQ173MI9nZNu7/fuI1CM9e9UD3tCQFMycecVhk2OAUfxFHOj
+PTuR/Q77VUOuYbGQ21bUzbZDhA3mY/GHtto1KrfKTdh4pQzAUFOnkqBRQxVUyGPJ
+p6U8I+Xp2mZC86f3nav8l0OFcstcGzUVSoLDKlsq4x9WUwof+9rICmFL78p/xDM=
+=AQWT
+-----END PGP SIGNATURE-----

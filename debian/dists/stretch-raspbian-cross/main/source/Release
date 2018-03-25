@@ -1,0 +1,5 @@
+Component: main
+Origin: lueschem.github.io/raspbian-cross-compiler/debian
+Label: lueschem.github.io/raspbian-cross-compiler/debian
+Architecture: source
+Description: Debian packages recompiled for Raspbian.
