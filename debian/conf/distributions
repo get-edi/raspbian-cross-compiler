@@ -1,6 +1,6 @@
 Origin: lueschem.github.io/raspbian-cross-compiler/debian
 Label: lueschem.github.io/raspbian-cross-compiler/debian
-Codename: stretch
+Codename: stretch-raspbian-cross
 Architectures: amd64 armhf source
 Components: main
 Description: Debian packages recompiled for Raspbian.
