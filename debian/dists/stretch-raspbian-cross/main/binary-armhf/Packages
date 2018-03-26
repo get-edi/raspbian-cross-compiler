@@ -2070,3 +2070,25 @@ Description: UBSan -- undefined behaviour sanitizer (debug symbols)
  at runtime. Available for C and C++.
 Build-Ids: 579a3e3423e2d719420fb336cb701156cc35a524
 
+Package: linux-libc-dev-armhf-cross
+Source: cross-toolchain-base (18)
+Version: 4.9.82-1+deb9u3cross1
+Architecture: all
+Maintainer: Cross Toolchain Base Team <cross-toolchain-base-devs@lists.launchpad.net>
+Installed-Size: 3845
+Provides: linux-kernel-headers-armhf-cross, linux-libc-dev-armhf-dcv1
+Built-Using: linux (= 4.9.82-1+deb9u3)
+Multi-Arch: foreign
+Priority: extra
+Section: devel
+Filename: pool/main/c/cross-toolchain-base/linux-libc-dev-armhf-cross_4.9.82-1+deb9u3cross1_all.deb
+Size: 771912
+SHA256: 88b9a28b3f1ba298da3ed431191450f4dca7aefaba25e23b0761d3d8ee3ae4d3
+SHA1: 5cb4d1001a2e2b8af990ad75a4fe70ffc555a060
+MD5sum: cd4ba01f380bfeb86dd70db3f0c89115
+Description: Linux Kernel Headers for development (for cross-compiling)
+ This package provides headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system
+ libraries. They are NOT meant to be used to build third-party modules for
+ your kernel. Use linux-headers-* packages for that.
+
