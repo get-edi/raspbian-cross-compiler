@@ -1,51 +1,51 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
+Hash: SHA512
 
 Origin: get-edi.github.io/raspbian-cross-compiler/debian
 Label: get-edi.github.io/raspbian-cross-compiler/debian
 Codename: stretch-raspbian-cross
-Date: Thu, 12 Apr 2018 12:36:35 UTC
+Date: Fri, 01 Mar 2019 07:31:40 UTC
 Architectures: amd64 armhf
 Components: main
 Description: Debian packages recompiled for Raspbian.
 MD5Sum:
- fac72d003e8613868fb3cf5b26cab2b2 48327 main/binary-amd64/Packages
- 803c9c25ddfbf377c04ae75fb4ae88f9 10409 main/binary-amd64/Packages.gz
+ 4120057ae4ab0594c97d727ebeecba7d 48319 main/binary-amd64/Packages
+ 3d8a849fcf074b3b159c02fefcfe6223 10414 main/binary-amd64/Packages.gz
  23f532aa99b756317359494e7ceb5f9f 205 main/binary-amd64/Release
- 9d67973028ec4a0ce6fdabd10d45852a 92866 main/binary-armhf/Packages
- 284f9be10edf994698a04880aa9da7f9 20045 main/binary-armhf/Packages.gz
+ 6d67b51e534fd396035fc45a64d2e542 92858 main/binary-armhf/Packages
+ ba084d5c24a2f8c2c94914847fdca6e8 20055 main/binary-armhf/Packages.gz
  70c808e01e8214f6cf72f198d966dbc8 205 main/binary-armhf/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  618b9ff8368a097788b586172ea9c0a6 206 main/source/Release
 SHA1:
- c35c154dc0d9160594a40806e229819165f2bd2f 48327 main/binary-amd64/Packages
- 535ea5b45b207e3c12fcdcb6713a6663be7fd142 10409 main/binary-amd64/Packages.gz
+ 8f0ef1a419a760df2c80615665c40102b456c02a 48319 main/binary-amd64/Packages
+ 0842438160647f13bea95b4e27f7ef40714ca48e 10414 main/binary-amd64/Packages.gz
  9fd5377a98179e1bf53f80b35cbf403e61ade3fe 205 main/binary-amd64/Release
- 17a4e3ee7b91dd321466e4e41da32344f05c05b7 92866 main/binary-armhf/Packages
- 29fb7aa5eb71d777336084b73871b475e8db1d2c 20045 main/binary-armhf/Packages.gz
+ 843c0ace878e3348e5ee9bf537666d66f6cb845d 92858 main/binary-armhf/Packages
+ 268fdb47ffee8cb8760ac2e74bd077327f7ed69a 20055 main/binary-armhf/Packages.gz
  a9c25196317e2abacbce6c2bdf82c956642afc40 205 main/binary-armhf/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  74a8fe9f52adda23f7fbe6ce4f22e5078a04c106 206 main/source/Release
 SHA256:
- afa3c116567afe0cf4ec2fe4936dbea20a1b9bea4ba46d59e7508f7e2d4cdab6 48327 main/binary-amd64/Packages
- b3ffa09a25ad6b536c1fe7f8d847817d0b287f583db778a6002601a1b83535a7 10409 main/binary-amd64/Packages.gz
+ 4aa07afe23359ca07beb2fb3a2b61db55b606626b5742fde65821a2ee1b939d7 48319 main/binary-amd64/Packages
+ 68e10262fd50e492d184250c61cab3577d37c1d9ffe1d939bbfae0882ab232e6 10414 main/binary-amd64/Packages.gz
  9aa80749db8a1b31c632e5281f9209ef96574715bf7bb9a2cd40aac2ef8f90ad 205 main/binary-amd64/Release
- 030cf9144b614ae23f8f76240037bce711c1315cc7386c6de283b287724d8a01 92866 main/binary-armhf/Packages
- 6c97ca1441170bd5a345f03cfd4498bd0ac5c48263239a3c73b14badc6540daa 20045 main/binary-armhf/Packages.gz
+ bba2756f757cde2e4085ab0c1dad1ed3f2b13a90c277f3287f141a8afe8d7762 92858 main/binary-armhf/Packages
+ 5336d63d835f959289042c6b45da1d5f9f9c8c3aaabd747b32379d13999ce6b1 20055 main/binary-armhf/Packages.gz
  e2ec16b0190b3256c95de0b8508eb5f4d66064729a7c02a5ac6a05e507d6fa3f 205 main/binary-armhf/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
  e4c34a41eedf9c37092a8e65507f40f8b3683d167d44be0b6ef8f6b835f73e24 206 main/source/Release
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v2
 
-iQEcBAEBCAAGBQJaz1LTAAoJEKAFVSkjtERC5x4H/iZFW2vg0FLChQNQPMsmU47l
-U77Sa0sRymLDPQFKDsUFbgIJmE+aOmwb3705KaDikgUXIBdqxQLpdR91+jQ8L5Yq
-WoeZ1eFwPOEVi6D8Kt/W6suQML3TWqU1afe8HedsF+BfADE+vXgIURp9Fdkh++HJ
-Tw+dfoYB0zaQ7AqUkC2GDVMvIYVd9D6XXzu5Rtzaty7IGWohfMFzIVv9y7sGkf8U
-cQkkcz/kfdlteb1oIONMuxSFxS4tMG0Mh1dsZ5RTvmcsF2q9pOG+bF1xDcy2PP1f
-cnR+6f4cTcUG3u2KkTFTwBWQqJCa1finD9t2HZmYf10LJ9l7R8xZSJR/S3glonA=
-=0h+6
+iQEzBAEBCgAdFiEEkeGgK3QO1gPPDu3RoAVVKSO0REIFAlx4390ACgkQoAVVKSO0
+REICMQf+NgGgK9pSIymdn5bZGLDbkslh5GnoX0SIdft82UnWFcw3Wj7TkizfEi6H
+hv6/QhI/vUwLluacIt9/f7pnv44+N64oWISVwkgxTQ8/V+Y+ncbS/6D83EbSudN6
+vc9eMUcNmLAilnIWrZB+i6n/JGRWSzcnx4bNsq2ysGZTiiz41VxtIhFmOfISNYbc
+PUP1BRZtFQ4jWgurbKXOrYBui8j8OpOXFVekI+UVWchbdbLmHZpKh2VM78V8UdqG
+kQFMvYmpfDp5OlCfcgK9pIYR5tgZb4ryvGxAbdX0fNtEV/46PpT5qW85Bzlv3xdj
+e64RCS552teJNYghoZ3Tq7Y/ijwWOg==
+=E3TQ
 -----END PGP SIGNATURE-----

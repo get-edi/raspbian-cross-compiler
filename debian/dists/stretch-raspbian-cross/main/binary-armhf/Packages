@@ -2072,20 +2072,20 @@ Build-Ids: 579a3e3423e2d719420fb336cb701156cc35a524
 
 Package: linux-libc-dev
 Source: linux
-Version: 4.9.82-1+deb9u3
+Version: 4.9.144-3.1
 Architecture: armhf
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 4358
+Installed-Size: 4431
 Provides: linux-kernel-headers
 Multi-Arch: same
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux/linux-libc-dev_4.9.82-1+deb9u3_armhf.deb
-Size: 1297184
-SHA256: 840df83d469d7d4774638aa871b79aa2991daef4e7a710d2d1f451927616ff69
-SHA1: fbe64b023b09af8a21e58fa18efb43d02489d739
-MD5sum: 15e8ad32943cc625ab4d325be82fe839
+Filename: pool/main/l/linux/linux-libc-dev_4.9.144-3.1_armhf.deb
+Size: 1370202
+SHA256: 6358329f0fa56d75af7099b589ea5b382f991a575df1fcaf880e9f6964f9f2a7
+SHA1: ebdf6ca4fbcc806e469978796725b56150c19424
+MD5sum: 63f281b15c4eaa97f799ea974d340fb5
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These
  headers are used by the installed headers for GNU libc and other system
