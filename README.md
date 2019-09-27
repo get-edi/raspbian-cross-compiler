@@ -26,7 +26,8 @@ Draft: How the packages got recompiled:
 
 1. Upgrade the edi-raspbian setup to buster, within the role "repositories" disable the cross compiler
 repository and raspbian_buster.list and within "development_tools" deactivate the installation of armhf packages and cross compilers.
-Important: The setup will pretend to be a Raspbian (see /etc/os-release, /etc/lsb-release).
+Important: The setup will pretend to be a Raspbian (see /usr/lib/os-release).
+The command "lsb_release -is" should show the result "Raspbian".
 The debian/rules2 file of gcc-8 will set the CPU options accordingly!
 2. Execute the command "sudo edi -v lxc configure raspbian-buster-cross buster-cross.yml".
 3. Make sure that no deb and deb-src entries in /etc/apt/sources.list.d/ point to Raspbian.
