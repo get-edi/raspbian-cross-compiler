@@ -41,6 +41,26 @@ MD5sum: 10561d7d6ae10651ab1f9ce005886385
 Description: debug symbols for fixincludes
 Build-Ids: d34e55f30ef9a286a577545dfc545048881568ff
 
+Package: gcc-8-base
+Source: gcc-8
+Version: 8.3.0-6
+Architecture: armhf
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 248
+Breaks: gnat (<< 7), gnat-6 (<< 6.4)
+Multi-Arch: same
+Homepage: http://gcc.gnu.org/
+Priority: required
+Section: libs
+Filename: pool/main/g/gcc-8/gcc-8-base_8.3.0-6_armhf.deb
+Size: 190532
+SHA256: 69fdbaf7dc4fe5afb1f9c4242f207688b6aa3e8fe53af9be7a2118cd69852e57
+SHA1: 48cf0ca0f5d3c4b5f653b5472c7af4239bc4f98d
+MD5sum: 0b875383d56abf695de1fd5bf7d92137
+Description: GCC, the GNU Compiler Collection (base package)
+ This package contains files common to all languages and libraries
+ contained in the GNU Compiler Collection (GCC).
+
 Package: gcc-8-cross-base
 Source: gcc-8-cross (26)
 Version: 8.3.0-6cross1
