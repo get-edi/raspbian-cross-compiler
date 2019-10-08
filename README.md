@@ -38,7 +38,7 @@ The debian/rules2 file of gcc-8 will set the CPU options accordingly!
     * cd cross-toolchain-base-33
     * sudo apt-get build-dep cross-toolchain-base
     * debuild --set-envvar=CROSS_ARCHS=armhf -us -uc
-5. Install debs from previous step.
+5. Install debs from previous step and also collect libc6_2.28-10_armhf.deb from the cross-toolchain-base-XX folder.
     * sudo dpkg -i ../*.deb
 6. Recompile gcc-8-cross for arm6hf:
     * apt-get source gcc-8-cross
@@ -54,7 +54,7 @@ Including testing this takes about seven days.
     * sudo apt-get build-dep gcc-8
     * sudo apt-get install devscripts build-essential lintian
     * DEB_BUILD_OPTIONS='parallel=1' debuild -us -uc
-    * Fetch the rebuilt libraries.
+    * Fetch the rebuilt libraries plus gcc-8-base_*_armhf.deb.
 8. Upload all recompiled debs to get-edi/raspbian-cross-compiler
 9. Uncomment the tasks that yet got excluded in step 1 (set gcc_bootstrap_environment to False).
 10. Use edi-raspbian according to step 2 to generate a cross compilation container.
