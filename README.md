@@ -56,6 +56,7 @@ Including testing this takes about seven days.
     * DEB_BUILD_OPTIONS='parallel=1' debuild -us -uc
     * Fetch the rebuilt libraries.
 8. Upload all recompiled debs to get-edi/raspbian-cross-compiler
-9. Uncomment the tasks that yet got excluded in step 1.
+9. Uncomment the tasks that yet got excluded in step 1 (set gcc_bootstrap_environment to False).
 10. Use edi-raspbian according to step 2 to generate a cross compilation container.
-11. Test the cross compilation container according to https://www.get-edi.io/Cross-Compiling-for-Raspbian/.
+11. Test the cross compilation container according to https://www.get-edi.io/Cross-Compiling-for-Raspbian/ and run the
+resulting binaries on a Pi 1.
