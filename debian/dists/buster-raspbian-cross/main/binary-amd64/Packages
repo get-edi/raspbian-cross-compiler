@@ -1,0 +1,807 @@
+Package: cpp-8-arm-linux-gnueabihf
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 19907
+Depends: gcc-8-arm-linux-gnueabihf-base (= 8.3.0-6cross1), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl19 (>= 0.15), libmpc3, libmpfr6 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Suggests: gcc-8-locales (>= 8)
+Breaks: libmagics++-dev (<< 2.28.0-4)
+Replaces: gccgo-8 (<< 8.3.0-6)
+Built-Using: gcc-8 (= 8.3.0-6)
+Multi-Arch: foreign
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/cpp-8-arm-linux-gnueabihf_8.3.0-6cross1_amd64.deb
+Size: 6552680
+SHA256: 6a920192718f79ea9d4775921f7aece40816a55472671671540a62c7609cbacb
+SHA1: d4d479ba7350f37694de866c3a1bb785abbc60f1
+MD5sum: 08ab8c96cf58126e56137f3c6b4899fd
+Description: GNU C preprocessor
+ A macro processor that is used automatically by the GNU C compiler
+ to transform programs before actual compilation.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the compiler.
+ .
+ This package contains preprocessor configured for armhf architecture.
+
+Package: g++-8-arm-linux-gnueabihf
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 21350
+Depends: gcc-8-arm-linux-gnueabihf-base (= 8.3.0-6cross1), gcc-8-arm-linux-gnueabihf (= 8.3.0-6cross1), libstdc++-8-dev-armhf-cross (>= 8), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl19 (>= 0.15), libmpc3, libmpfr6 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Suggests: gcc-8-doc (>= 8), libstdc++6-8-dbg-armhf-cross (>= 8.3.0-6cross1)
+Provides: c++-compiler-arm-linux-gnueabihf
+Built-Using: gcc-8 (= 8.3.0-6)
+Multi-Arch: foreign
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/g++-8-arm-linux-gnueabihf_8.3.0-6cross1_amd64.deb
+Size: 7131548
+SHA256: 92b31ebacb57d6f29e6dd5c43580d1372a4b710125826f5d2fd250f4acb44274
+SHA1: 4d34f69dcec8cfc24c2acb096001a1ce827bb0c3
+MD5sum: 96df601e107d6124fd10ac91065f2bc7
+Description: GNU C++ compiler (cross compiler for armhf architecture)
+ This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
+ .
+ This package contains C++ cross-compiler for armhf architecture.
+
+Package: gcc-8-arm-linux-gnueabihf
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 23069
+Depends: cpp-8-arm-linux-gnueabihf (= 8.3.0-6cross1), gcc-8-arm-linux-gnueabihf-base (= 8.3.0-6cross1), libcc1-0 (>= 8), binutils-arm-linux-gnueabihf (>= 2.31.1), libgcc-8-dev-armhf-cross (>= 8.3.0-6cross1), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgmp10 (>= 2:5.0.1~), libisl19 (>= 0.15), libmpc3, libmpfr6 (>= 3.1.3), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
+Recommends: libc6-dev-armhf-cross (>= 2.13-5)
+Suggests: gcc-8-doc (>= 8), gcc-8-locales (>= 8), libgcc1-dbg-armhf-cross (>= 1:8.3.0-6cross1), libgomp1-dbg-armhf-cross (>= 8.3.0-6cross1), libitm1-dbg-armhf-cross (>= 8.3.0-6cross1), libatomic1-dbg-armhf-cross (>= 8.3.0-6cross1), libasan5-dbg-armhf-cross (>= 8.3.0-6cross1), liblsan0-dbg-armhf-cross (>= 8.3.0-6cross1), libtsan0-dbg-armhf-cross (>= 8.3.0-6cross1), libubsan1-dbg-armhf-cross (>= 8.3.0-6cross1), libmpx2-dbg-armhf-cross (>= 8.3.0-6cross1), libquadmath0-dbg-armhf-cross (>= 8.3.0-6cross1)
+Conflicts: gcc-multilib
+Replaces: cpp-8-arm-linux-gnueabihf (<< 7.1.1-8), gccgo-8 (<< 8.3.0-6)
+Provides: c-compiler-arm-linux-gnueabihf
+Built-Using: gcc-8 (= 8.3.0-6)
+Multi-Arch: foreign
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/gcc-8-arm-linux-gnueabihf_8.3.0-6cross1_amd64.deb
+Size: 6976720
+SHA256: 32ba8c16e364265440e9feffaefcd1d8a3c0ae3cb4949bae83aff1e49bacb88d
+SHA1: 190435910d422734568ea17e567337893e838976
+MD5sum: 6561e70683e6b50d4e014d041d09863e
+Description: GNU C compiler (cross compiler for armhf architecture)
+ This is the GNU C compiler, a fairly portable optimizing compiler for C.
+ .
+ This package contains C cross-compiler for armhf architecture.
+
+Package: gcc-8-arm-linux-gnueabihf-base
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 248
+Breaks: gnat (<< 7), gnat-6 (<< 6.4)
+Built-Using: gcc-8 (= 8.3.0-6)
+Multi-Arch: same
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/gcc-8-arm-linux-gnueabihf-base_8.3.0-6cross1_amd64.deb
+Size: 190744
+SHA256: 29b58ea723965afe0b1481ab4e9b2fa22f615873fcd0c479c5e440d62b99684d
+SHA1: e7b426a89226c1e57bbc36583fc3096cbc2ada45
+MD5sum: 18830ee933fe5f1bfad2e12983609640
+Description: GCC, the GNU Compiler Collection (base package)
+ This package contains files common to all languages and libraries
+ contained in the GNU Compiler Collection (GCC).
+
+Package: gcc-8-cross-base
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 238
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/gcc-8-cross-base_8.3.0-6cross1_all.deb
+Size: 185880
+SHA256: 85ce744eaf8ef8134bbe2338beff172289891141ee1c3e56f74195ac6dc58627
+SHA1: f453210ec7259853bb20044c489409035d658cfd
+MD5sum: c425c311b6f8678228e0ba04ea4471ae
+Description: GCC, the GNU Compiler Collection (library base package)
+ This empty package contains changelog and copyright files common to
+ all libraries contained in the GNU Compiler Collection (GCC).
+
+Package: gcc-8-plugin-dev-arm-linux-gnueabihf
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 7398
+Depends: gcc-8-arm-linux-gnueabihf-base (= 8.3.0-6cross1), gcc-8-arm-linux-gnueabihf (= 8.3.0-6cross1), libgmp-dev (>= 2:5.0.1~), libmpc-dev (>= 1.0), libc6 (>= 2.14)
+Built-Using: gcc-8 (= 8.3.0-6)
+Multi-Arch: foreign
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/gcc-8-plugin-dev-arm-linux-gnueabihf_8.3.0-6cross1_amd64.deb
+Size: 1148612
+SHA256: 8f2b14801b37861a6dc577ccc4fea3c68e4334fa857c146b3ae06829fa78dc0d
+SHA1: ff0bb547471a7ee1fae47fe8daceeef98c238581
+MD5sum: e47e49b869a146dd9701c8db0a583915
+Description: Files for GNU GCC plugin development.
+ This package contains (header) files for GNU GCC plugin development. It
+ is only used for the development of GCC plugins, but not needed to run
+ plugins.
+
+Package: gccgo-8-arm-linux-gnueabihf
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 66440
+Depends: gcc-8-arm-linux-gnueabihf-base (= 8.3.0-6cross1), gcc-8-arm-linux-gnueabihf (= 8.3.0-6cross1), libgo13-armhf-cross (>= 8), libc6-dev-armhf-cross (>= 2.13-5), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl19 (>= 0.15), libmpc3, libmpfr6 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Suggests: gccgo-8-doc, libgo13-dbg-armhf-cross (>= 8.3.0-6cross1)
+Conflicts: golang-go (<< 2:1.3.3-1ubuntu2)
+Breaks: libgo12-armhf-cross (<< 8-20171209-2)
+Replaces: libgo12-armhf-cross (<< 8-20171209-2)
+Built-Using: gcc-8 (= 8.3.0-6)
+Multi-Arch: foreign
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/gccgo-8-arm-linux-gnueabihf_8.3.0-6cross1_amd64.deb
+Size: 12733520
+SHA256: c00ea2a84f2956326e8de3e6c22ca17b559179bf52c9b610bb4dec725caaaac2
+SHA1: 6abf532834cd4270f126147ad53933dfa00d6125
+MD5sum: a4c39f20fa16adc5f57ecd8da7b42d4e
+Description: GNU Go compiler
+ This is the GNU Go compiler, which compiles Go on platforms supported
+ by the gcc compiler. It uses the gcc backend to generate optimized code.
+
+Package: gdc-8-arm-linux-gnueabihf
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 21562
+Depends: gcc-8-arm-linux-gnueabihf-base (>= 8), g++-8-arm-linux-gnueabihf (>= 8), gdc-8 (>= 8), libgphobos-8-dev-armhf-cross (>= 8), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl19 (>= 0.15), libmpc3, libmpfr6 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Replaces: gdc (<< 4.4.6-5)
+Built-Using: gcc-8 (= 8.3.0-6)
+Multi-Arch: foreign
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/gdc-8-arm-linux-gnueabihf_8.3.0-6cross1_amd64.deb
+Size: 7113016
+SHA256: dcee8ffa4f638d5000303f62888c7afaa56224a8b89e3f0c81f6d668edf68923
+SHA1: de8e686721a8f71a314f9f7340a6504ba5124cfb
+MD5sum: 56b4afe9ae6e52f240b1dc1fe564cad7
+Description: GNU D compiler (version 2) (cross compiler for armhf architecture)
+ This is the GNU D compiler, which compiles D on platforms supported by gcc.
+ It uses the gcc backend to generate optimised code.
+ .
+ This compiler supports D language version 2.
+
+Package: gfortran-8-arm-linux-gnueabihf
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 20903
+Depends: gcc-8-arm-linux-gnueabihf-base (= 8.3.0-6cross1), gcc-8-arm-linux-gnueabihf (= 8.3.0-6cross1), libgfortran-8-dev-armhf-cross (>= 8), libc6-dev-armhf-cross (>= 2.13-5), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl19 (>= 0.15), libmpc3, libmpfr6 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Suggests: gfortran-8-doc, libgfortran5-dbg-armhf-cross (>= 8.3.0-6cross1), libcoarrays-dev
+Built-Using: gcc-8 (= 8.3.0-6)
+Multi-Arch: foreign
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/gfortran-8-arm-linux-gnueabihf_8.3.0-6cross1_amd64.deb
+Size: 6964408
+SHA256: 1fcfe34f7455088bf0606328ed876da48c720f09210159141a737ee2e76d0eb4
+SHA1: 9ad8b7f5c4754474785416bf4d90b3536987c79e
+MD5sum: 644d57a414fcf6058b6eec63aca33990
+Description: GNU Fortran compiler
+ This is the GNU Fortran compiler, which compiles
+ Fortran on platforms supported by the gcc compiler. It uses the
+ gcc backend to generate optimized code.
+
+Package: gnat-8-arm-linux-gnueabihf
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 75331
+Depends: gcc-8-arm-linux-gnueabihf-base (= 8.3.0-6cross1), gcc-8-arm-linux-gnueabihf (>= 8), libgnat-8-armhf-cross (>= 8.3.0-6cross1), libc6-dev-armhf-cross (>= 2.13-5), libc6 (>= 2.28), libgmp10 (>= 2:5.0.1~), libisl19 (>= 0.15), libmpc3, libmpfr6 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Suggests: gnat-8-doc, ada-reference-manual-2012, gnat-8-sjlj
+Conflicts: gnat (<< 4.1), gnat-3.1, gnat-3.2, gnat-3.3, gnat-3.4, gnat-3.5, gnat-4.0, gnat-4.1, gnat-4.2, gnat-4.3, gnat-4.4, gnat-4.6, gnat-4.7, gnat-4.8, gnat-4.9, gnat-5-arm-linux-gnueabihf, gnat-6-arm-linux-gnueabihf, gnat-7-arm-linux-gnueabihf
+Breaks: dh-ada-library (<< 6.0), gnat (<< 4.6.1), gnat-4.6-base (= 4.6.4-2), gnat-4.9-base (= 4.9-20140330-1)
+Replaces: dh-ada-library (<< 6.0), gnat (<< 4.6.1), gnat-4.6-base (= 4.6.4-2), gnat-4.9-base (= 4.9-20140330-1)
+Built-Using: gcc-8 (= 8.3.0-6)
+Multi-Arch: foreign
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/gnat-8-arm-linux-gnueabihf_8.3.0-6cross1_amd64.deb
+Size: 14286492
+SHA256: c044f926665cb6b6aa95dd099f17193cb56daa6eda766410d2162bb8d0a4c586
+SHA1: ae58b76a7e5fab26865b4783974065ccc04218bf
+MD5sum: 7b1a9ecb23156821825a313212c997de
+Description: GNU Ada compiler
+ GNAT is a compiler for the Ada programming language. It produces optimized
+ code on platforms supported by the GNU Compiler Collection (GCC).
+ .
+ This package provides the compiler, tools and runtime library that handles
+ exceptions using the default zero-cost mechanism.
+
+Package: gnat-8-sjlj-arm-linux-gnueabihf
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 20019
+Depends: gcc-8-arm-linux-gnueabihf-base (= 8.3.0-6cross1), gnat-8-arm-linux-gnueabihf (= 8.3.0-6cross1)
+Built-Using: gcc-8 (= 8.3.0-6)
+Multi-Arch: foreign
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/gnat-8-sjlj-arm-linux-gnueabihf_8.3.0-6cross1_amd64.deb
+Size: 2189280
+SHA256: 11f51f1a9d9605e649f18e764bec797a45e9b2e20d66d67f6f62a90f6dc59d50
+SHA1: 96f6ee9568ba7879a4f0526f378b0ac944e9b5fb
+MD5sum: 65559a1f849df754c291f859936d7ef4
+Description: GNU Ada compiler (setjump/longjump runtime library)
+ GNAT is a compiler for the Ada programming language. It produces optimized
+ code on platforms supported by the GNU Compiler Collection (GCC).
+ .
+ This package provides an alternative runtime library that handles
+ exceptions using the setjump/longjump mechanism (as a static library
+ only).  You can install it to supplement the normal compiler.
+
+Package: gobjc++-8-arm-linux-gnueabihf
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 20434
+Depends: gcc-8-arm-linux-gnueabihf-base (= 8.3.0-6cross1), gobjc-8-arm-linux-gnueabihf (= 8.3.0-6cross1), g++-8-arm-linux-gnueabihf (= 8.3.0-6cross1), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl19 (>= 0.15), libmpc3, libmpfr6 (>= 3.1.3), zlib1g (>= 1:1.1.4), libobjc-8-dev-armhf-cross (>= 8)
+Suggests: gcc-8-doc (>= 8)
+Provides: objc++-compiler-arm-linux-gnueabihf
+Built-Using: gcc-8 (= 8.3.0-6)
+Multi-Arch: foreign
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/gobjc++-8-arm-linux-gnueabihf_8.3.0-6cross1_amd64.deb
+Size: 6860056
+SHA256: 083f0037001a07990b696adabe7fdfe5c7002385f3164c2f94fc2216a992c501
+SHA1: 56320755929da09e19b84e1347f311098c517492
+MD5sum: 5dc89dbe165d898e6f28685ba3434c1c
+Description: GNU Objective-C++ compiler
+ This is the GNU Objective-C++ compiler, which compiles
+ Objective-C++ on platforms supported by the gcc compiler. It uses the
+ gcc backend to generate optimized code.
+
+Package: gobjc-8-arm-linux-gnueabihf
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 19077
+Depends: gcc-8-arm-linux-gnueabihf-base (= 8.3.0-6cross1), gcc-8-arm-linux-gnueabihf (= 8.3.0-6cross1), libc6-dev-armhf-cross (>= 2.13-5), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl19 (>= 0.15), libmpc3, libmpfr6 (>= 3.1.3), zlib1g (>= 1:1.1.4), libobjc-8-dev-armhf-cross (>= 8)
+Suggests: gcc-8-doc (>= 8), libobjc4-dbg-armhf-cross (>= 8.3.0-6cross1)
+Provides: objc-compiler-arm-linux-gnueabihf
+Built-Using: gcc-8 (= 8.3.0-6)
+Multi-Arch: foreign
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/gobjc-8-arm-linux-gnueabihf_8.3.0-6cross1_amd64.deb
+Size: 6349908
+SHA256: 7266986f987584456d212c6b6c520d2bef0b5cc7e11bedc925d5be0d4b11ff02
+SHA1: 268ef91157259a7f2cdcd961b9bcb07a51f932e5
+MD5sum: f8eb4a8dc34c40ff601828e02c899305
+Description: GNU Objective-C compiler
+ This is the GNU Objective-C compiler, which compiles
+ Objective-C on platforms supported by the gcc compiler. It uses the
+ gcc backend to generate optimized code.
+
+Package: libasan5-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1304
+Depends: gcc-8-cross-base (>= 8.3.0-6), libc6-armhf-cross (>= 2.28), libgcc1-armhf-cross (>= 1-4-cross.3), libstdc++6-armhf-cross
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/libasan5-armhf-cross_8.3.0-6cross1_all.deb
+Size: 310200
+SHA256: 5b4eb6660261e4f43e6f431373f42f2f74a2a825cb5c576befab0c8a2cb95370
+SHA1: c4b9231f5932ce4ee9788bf9bdab4ac9ae52c99f
+MD5sum: 2d6b69ce0150f5fcf69f7687c75bd6fa
+Description: AddressSanitizer -- a fast memory error detector
+ AddressSanitizer (ASan) is a fast memory error detector.  It finds
+ use-after-free and {heap,stack,global}-buffer overflow bugs in C/C++ programs.
+
+Package: libatomic1-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 44
+Depends: gcc-8-cross-base (>= 8.3.0-6), libc6-armhf-cross (>= 2.28)
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/libatomic1-armhf-cross_8.3.0-6cross1_all.deb
+Size: 8424
+SHA256: 9e82c5a3314aaeede7c21ba5985fdb656b4998e2a574eded10b4b5e6516df3ae
+SHA1: fa16e1e9c76692bf20a797e2892bc897e2724c2f
+MD5sum: 01f2c8920fddab9b9fed4952ddf8eeaa
+Description: support library providing __atomic built-in functions
+ library providing __atomic built-in functions. When an atomic call cannot
+ be turned into lock-free instructions, GCC will make calls into this library.
+
+Package: libc6-armhf-cross
+Version: 2.28-10cross1
+Architecture: all
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Source: cross-toolchain-base (33)
+Provides: libc6-armhf-dcv1
+Conflicts: openrc-armhf-cross (<< 0.27-2~)
+Priority: optional
+Section: libs
+Filename: pool/main/c/cross-toolchain-base/libc6-armhf-cross_2.28-10cross1_all.deb
+Size: 1147300
+SHA256: d9c6b8ee9ba954392a01b5dfc10a1bfb0b2f2f4e511900261e538fcb48dcebcf
+SHA1: a0aef5237f86a8339e7c208f29d05c2a76333441
+MD5sum: 354079e76b7a4fa06b032487c345ebb4
+Description: GNU C Library: Shared libraries (for cross-compiling)
+ This package was generated by dpkg-cross for cross compiling.
+ .
+ Contains the standard libraries that are used by nearly all programs on
+ the system. This package includes shared versions of the standard C library
+ and the standard math library, as well as many others.
+Built-Using: binutils (= 2.31.1-16), linux (= 4.19.67-2+deb10u1), gcc-8 (= 8.3.0-6), glibc (= 2.28-10)
+Multi-Arch: foreign
+
+Package: libc6-dev-armhf-cross
+Version: 2.28-10cross1
+Architecture: all
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Source: cross-toolchain-base (33)
+Provides: libc-dev-armhf-cross, libc6-dev-armhf-dcv1
+Depends: libc6-armhf-cross (= 2.28-10cross1), linux-libc-dev-armhf-cross
+Conflicts: libc0.1-dev-armhf-cross, libc0.3-dev-armhf-cross, libc6.1-dev-armhf-cross
+Priority: optional
+Section: libdevel
+Filename: pool/main/c/cross-toolchain-base/libc6-dev-armhf-cross_2.28-10cross1_all.deb
+Size: 2111888
+SHA256: 22136b06bcf37600a2a1a90b0fed0437b30ae020ee8f6c33292184635e659b6d
+SHA1: f2d2418a7374e2fe264547bd01b150327a134a83
+MD5sum: 299b52c48feba5c465ff84b1ad32750e
+Description: GNU C Library: Development Libraries and Header Files (for cross-compiling)
+ This package was generated by dpkg-cross for cross compiling.
+ .
+ Contains the symlinks, headers, and object files needed to compile
+ and link programs which use the standard C library.
+Built-Using: binutils (= 2.31.1-16), linux (= 4.19.67-2+deb10u1), gcc-8 (= 8.3.0-6), glibc (= 2.28-10)
+Multi-Arch: foreign
+
+Package: libgcc-8-dev-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 5393
+Depends: gcc-8-cross-base (>= 8.3.0-6), libgcc1-armhf-cross (>= 1:8.3.0-6cross1), libgomp1-armhf-cross (>= 8.3.0-6cross1), libatomic1-armhf-cross (>= 8.3.0-6cross1), libasan5-armhf-cross (>= 8.3.0-6cross1), libubsan1-armhf-cross (>= 8.3.0-6cross1)
+Recommends: libc6-dev-armhf-cross (>= 2.13-5)
+Replaces: gccgo-8 (<< 8.3.0-6)
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gcc-8-cross/libgcc-8-dev-armhf-cross_8.3.0-6cross1_all.deb
+Size: 596156
+SHA256: c737fd1e13d243c52f6ed61f4f9d383ce599409748c1cbdae699e1fb951713e2
+SHA1: 0eca6cbdcb82b9f89ba7885965c0aa04d7a8da12
+MD5sum: 8a6103e1a5a0bc432dd851f282670302
+Description: GCC support library (development files)
+ This package contains the headers and static library files necessary for
+ building C programs which use libgcc, libgomp, libquadmath, libssp or libitm.
+
+Package: libgcc1-armhf-cross
+Source: gcc-8-cross (26)
+Version: 1:8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 165
+Depends: gcc-8-cross-base (>= 8.3.0-6), libc6-armhf-cross (>= 2.28)
+Provides: libgcc1-armhf-dcv1
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/libgcc1-armhf-cross_8.3.0-6cross1_all.deb
+Size: 36556
+SHA256: 56796426bbab66d35d3d817e9610846dcdf2dc4da2c3157a1cf12f7e35ffad40
+SHA1: 8fe9d294259796a15bf9ae238991c09af9aca0aa
+MD5sum: 5ebd97a9f60e560aaf7a277e4b334a8b
+Description: GCC support library (armhf)
+ Shared version of the support library, a library of internal subroutines
+ that GCC uses to overcome shortcomings of particular machines, or
+ special needs for some languages.
+ .
+ This package contains files for armhf architecture, for use in cross-compile
+ environment.
+
+Package: libgccjit-8-doc
+Source: gcc-8
+Version: 8.3.0-6
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 509
+Depends: gcc-8-base (= 8.3.0-6)
+Conflicts: libgccjit-5-doc, libgccjit-6-doc, libgccjit-7-doc
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-8/libgccjit-8-doc_8.3.0-6_all.deb
+Size: 260584
+SHA256: 15d7712de298e359db3175c9fbd22d9af7a350f29766a874cac5c8eb0ff96a81
+SHA1: e3b7d14837a02cc145f2f6fa4f508555e11820e6
+MD5sum: 02f01b49c8a856bbd7a0d70702de5e94
+Description: GCC just-in-time compilation (documentation)
+ libgccjit provides an embeddable shared library with an API for adding
+ compilation to existing programs using GCC.
+
+Package: libgfortran-8-dev-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1761
+Depends: gcc-8-cross-base (>= 8.3.0-6), libgcc-8-dev-armhf-cross (= 8.3.0-6cross1), libgfortran5-armhf-cross (>= 8.3.0-6cross1)
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/libgfortran-8-dev-armhf-cross_8.3.0-6cross1_all.deb
+Size: 248748
+SHA256: ab27e0e11804204fa3d981412a0edc828500da48d6ae6a8f4c649ef4909746c2
+SHA1: cee3cb9b29edb1d9799d8f9bd210001e15d2c3a7
+MD5sum: a5f1ec259ec647b2223994d430f9531a
+Description: Runtime library for GNU Fortran applications (development files)
+ This package contains the headers and static library files needed to build
+ GNU Fortran applications.
+
+Package: libgfortran5-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 814
+Depends: gcc-8-cross-base (>= 8.3.0-6), libc6-armhf-cross (>= 2.28), libgcc1-armhf-cross (>= 1-4-cross.3)
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/libgfortran5-armhf-cross_8.3.0-6cross1_all.deb
+Size: 204020
+SHA256: 50ce125c1f38807a73b3d9f37d67f0be4cdf1b0c2398b3d8f41c2a91465623bc
+SHA1: 281b211b3c9d0757a996c09c3f17cb6311e87a3c
+MD5sum: 8eed8bf7d3426c34689285b818d42cde
+Description: Runtime library for GNU Fortran applications
+ Library needed for GNU Fortran applications linked against the
+ shared library.
+
+Package: libgnat-8-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 2944
+Depends: gcc-8-cross-base (>= 8.3.0-6), libatomic1-armhf-cross, libc6-armhf-cross (>= 2.28), libgcc1-armhf-cross (>= 1-3-cross.5)
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/libgnat-8-armhf-cross_8.3.0-6cross1_all.deb
+Size: 769124
+SHA256: 5e5a46cd60c0ae55fad41437e6f9db8cf571c444293d46cbc22cb04a5530dc29
+SHA1: cc17fe3b98165ddbd52e1bbde592ae620ae244d6
+MD5sum: d93a03772092e70035c394febf8dd851
+Description: runtime for applications compiled with GNAT (shared library)
+ GNAT is a compiler for the Ada programming language. It produces optimized
+ code on platforms supported by the GNU Compiler Collection (GCC).
+ .
+ The libgnat library provides runtime components needed by most
+ applications produced with GNAT.
+ .
+ This package contains the runtime shared library.
+
+Package: libgo13-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 37407
+Depends: gcc-8-cross-base (>= 8.3.0-6), libc6-armhf-cross (>= 2.28), libgcc1-armhf-cross (>= 1-4-cross.3)
+Replaces: libgo3-armhf-cross, libgo8-armhf-cross
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/libgo13-armhf-cross_8.3.0-6cross1_all.deb
+Size: 9203780
+SHA256: 8b42de4f8fde82154ac68f8f8772165470d117dc9b364697627d08468aad73d2
+SHA1: 399dff5a81e7b578c13c5f91e9dd21e8e603adb1
+MD5sum: fd73e890b82281cab646aeef8df83c6f
+Description: Runtime library for GNU Go applications
+ Library needed for GNU Go applications linked against the
+ shared library.
+
+Package: libgomp1-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 169
+Depends: gcc-8-cross-base (>= 8.3.0-6), libc6-armhf-cross (>= 2.28)
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/libgomp1-armhf-cross_8.3.0-6cross1_all.deb
+Size: 62392
+SHA256: 0528be804fc0ead603f668cf7dcaa92eac31fda686e1b10ca3418391f1428ea6
+SHA1: d5e7ce40fccd38f5b85d9813928df2bc2c011f6c
+MD5sum: f337c94ef5b56fbf9ca86d3117992002
+Description: GCC OpenMP (GOMP) support library
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
+ in the GNU Compiler Collection.
+
+Package: libgphobos-8-dev-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 70141
+Depends: gcc-8-cross-base (>= 8.3.0-6), libgphobos76-armhf-cross (>= 8.3.0-6cross1), zlib1g-dev
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gcc-8-cross/libgphobos-8-dev-armhf-cross_8.3.0-6cross1_all.deb
+Size: 9442896
+SHA256: 456147a16fa0e44e26d164525c52fc07c5502a702fab6fdd61105a97b84bf634
+SHA1: d11f9aece0f006548c87bb3df07ebf3eb0757673
+MD5sum: 40b4f71495c0b351021649e63b752824
+Description: Phobos D standard library
+ This is the Phobos standard library that comes with the D2 compiler.
+ .
+ For more information check http://www.dlang.org/phobos/
+
+Package: libgphobos76-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 5106
+Depends: gcc-8-cross-base (>= 8.3.0-6), libc6-armhf-cross (>= 2.28), libgcc1-armhf-cross (>= 1-4-cross.3)
+Replaces: libgphobos68-armhf-cross
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/libgphobos76-armhf-cross_8.3.0-6cross1_all.deb
+Size: 994504
+SHA256: 2591c075878228847a95f53f13addeb2e396006c6c46b21774aed9098a72dee0
+SHA1: 92add20ea74c24147ac07d332dc8f8a078650fd4
+MD5sum: 9cda34c72572e0284983c71b71b0f81f
+Description: Phobos D standard library (runtime library)
+ This is the Phobos standard library that comes with the D2 compiler.
+ .
+ For more information check http://www.dlang.org/phobos/
+
+Package: libobjc-8-dev-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 827
+Depends: gcc-8-cross-base (>= 8.3.0-6), libgcc-8-dev-armhf-cross (= 8.3.0-6cross1), libobjc4-armhf-cross (>= 8.3.0-6cross1)
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gcc-8-cross/libobjc-8-dev-armhf-cross_8.3.0-6cross1_all.deb
+Size: 194704
+SHA256: 7d5ff46b820b5050c9e4675bd00310b7039c7eb564b67a4adbe2849c93118dc9
+SHA1: eb78ac8e2f64fa034b612f1a0dd06888fd578010
+MD5sum: cd1c86bd23eff7945bd6000f11ce33ae
+Description: Runtime library for GNU Objective-C applications (development files)
+ This package contains the headers and static library files needed to build
+ GNU ObjC applications.
+
+Package: libobjc4-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 125
+Depends: gcc-8-cross-base (>= 8.3.0-6), libc6-armhf-cross (>= 2.28), libgcc1-armhf-cross (>= 1-3-cross.5)
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/libobjc4-armhf-cross_8.3.0-6cross1_all.deb
+Size: 35464
+SHA256: 97171334e9fc6e8a8872289c4c88b21ab7eca6b9069b9e03084bdf175c872172
+SHA1: 938f22367abbde1cf58861775f206b16b20c3ff8
+MD5sum: ef89752f42bdd79b0239848cc4e269fa
+Description: Runtime library for GNU Objective-C applications
+ Library needed for GNU ObjC applications linked against the shared library.
+
+Package: libstdc++-8-dev-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 15632
+Depends: gcc-8-cross-base (>= 8.3.0-6), libgcc-8-dev-armhf-cross (= 8.3.0-6cross1), libstdc++6-armhf-cross (>= 8.3.0-6cross1), libc6-dev-armhf-cross (>= 2.13-5)
+Provides: libstdc++-dev-armhf-cross, libstdc++-dev-armhf-dcv1
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/libstdc++-8-dev-armhf-cross_8.3.0-6cross1_all.deb
+Size: 1546040
+SHA256: 2449abc5596bfa71f26ac9b9a0411f19f7f9931699bcdc3feca91ffede926cdd
+SHA1: c4b0192f214b298b597950a7164b6680db256734
+MD5sum: 827076e00530834fda8d38541f025fa1
+Description: GNU Standard C++ Library v3 (development files) (armhf)
+ This package contains the headers and static library files necessary for
+ building C++ programs which use libstdc++.
+ .
+ libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
+ was included up to g++-2.95. The first version of libstdc++-v3 appeared
+ in g++-3.0.
+ .
+ This package contains files for armhf architecture, for use in cross-compile
+ environment.
+
+Package: libstdc++-8-doc
+Source: gcc-8
+Version: 8.3.0-6
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 110574
+Depends: gcc-8-base (>= 8)
+Conflicts: libstdc++-4.8-doc, libstdc++-4.9-doc, libstdc++-5-doc, libstdc++-6-doc, libstdc++-7-doc, libstdc++5-3.3-doc, libstdc++5-doc, libstdc++6-4.0-doc, libstdc++6-4.1-doc, libstdc++6-4.2-doc, libstdc++6-4.3-doc, libstdc++6-4.4-doc, libstdc++6-4.5-doc, libstdc++6-4.6-doc, libstdc++6-4.7-doc, libstdc++6-doc
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gcc-8/libstdc++-8-doc_8.3.0-6_all.deb
+Size: 9165072
+SHA256: 4ee4c980c496efb33e298fedb57538cdb02441e28be2fb1bf6b61012d2376104
+SHA1: 4547bba18ceb59a10d526e32e6ac9356447359cb
+MD5sum: 4a737ce018c8e77b656b1f11f8e921a2
+Description: GNU Standard C++ Library v3 (documentation files)
+ This package contains documentation files for the GNU stdc++ library.
+ .
+ One set is the distribution documentation, the other set is the
+ source documentation including a namespace list, class hierarchy,
+ alphabetical list, compound list, file list, namespace members,
+ compound members and file members.
+
+Package: libstdc++-8-pic-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 4712
+Depends: gcc-8-cross-base (>= 8.3.0-6), libstdc++6-armhf-cross (>= 8.3.0-6cross1), libstdc++-8-dev-armhf-cross (= 8.3.0-6cross1)
+Provides: libstdc++-pic-armhf-dcv1
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/libstdc++-8-pic-armhf-cross_8.3.0-6cross1_all.deb
+Size: 506700
+SHA256: 8a662675a6b4376d594be00a05414b56e5db67aef042369c39cbc900ff97cb39
+SHA1: 44401468e646db667ed87dcd05652d70b1fd9ab2
+MD5sum: 5f5290da263bc3fc5f55e2e463f05b2f
+Description: GNU Standard C++ Library v3 (shared library subset kit) (armhf)
+ This is used to develop subsets of the libstdc++ shared libraries for
+ use on custom installation floppies and in embedded systems.
+ .
+ Unless you are making one of those, you will not need this package.
+ .
+ This package contains files for armhf architecture, for use in cross-compile
+ environment.
+
+Package: libstdc++6-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1254
+Depends: gcc-8-cross-base (>= 8.3.0-6), libc6-armhf-cross (>= 2.28), libgcc1-armhf-cross (>= 1-3-cross.5)
+Conflicts: scim (<< 1.4.2-1)
+Replaces: libstdc++6-8-dbg-armhf-cross (<< 4.9.0-3)
+Provides: libstdc++6-armhf-dcv1
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/libstdc++6-armhf-cross_8.3.0-6cross1_all.deb
+Size: 288740
+SHA256: 28a6c8041cfb008ea634527196071e913e5c9a9bc27ff7d1db4d46fd1d6a9900
+SHA1: 4d482b4f7b632fbabaed0461f4c417f28ff2dafa
+MD5sum: 7a19781b5c895d656ce2eaf586530888
+Description: GNU Standard C++ Library v3 (armhf)
+ This package contains an additional runtime library for C++ programs
+ built with the GNU compiler.
+ .
+ libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
+ was included up to g++-2.95. The first version of libstdc++-v3 appeared
+ in g++-3.0.
+ .
+ This package contains files for armhf architecture, for use in cross-compile
+ environment.
+
+Package: libubsan1-armhf-cross
+Source: gcc-8-cross (26)
+Version: 8.3.0-6cross1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 283
+Depends: gcc-8-cross-base (>= 8.3.0-6), libc6-armhf-cross (>= 2.28), libgcc1-armhf-cross (>= 1-4-cross.3), libstdc++6-armhf-cross
+Built-Using: gcc-8 (= 8.3.0-6)
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gcc-8-cross/libubsan1-armhf-cross_8.3.0-6cross1_all.deb
+Size: 102108
+SHA256: 7dd3df559832525cf64472dc9cb57d8107530177178b50dd684fe57934fa2fad
+SHA1: 8671b4b9a18ad964a672824781ae4bacab81109b
+MD5sum: 747233d5fa4c9eba7501030765175b36
+Description: UBSan -- undefined behaviour sanitizer (runtime)
+ UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
+ Various computations will be instrumented to detect undefined behavior
+ at runtime. Available for C and C++.
+
+Package: linux-libc-dev-armhf-cross
+Source: cross-toolchain-base (33)
+Version: 4.19.67-2+deb10u1cross1
+Architecture: all
+Maintainer: Cross Toolchain Base Team <cross-toolchain-base-devs@lists.launchpad.net>
+Installed-Size: 5396
+Provides: linux-kernel-headers-armhf-cross, linux-libc-dev-armhf-dcv1
+Built-Using: linux (= 4.19.67-2+deb10u1)
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Filename: pool/main/c/cross-toolchain-base/linux-libc-dev-armhf-cross_4.19.67-2+deb10u1cross1_all.deb
+Size: 1303164
+SHA256: 38d95b707cdc6ad30221869e1ba78f192a6f935c84e9184e6dbcf15df08ceb8e
+SHA1: 643dfdb1ea6d8ab7af30eed72cb0e0edff90db81
+MD5sum: 63accd0c2716dbc878c0d7d1e3cc7d81
+Description: Linux Kernel Headers for development (for cross-compiling)
+ This package provides headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system
+ libraries. They are NOT meant to be used to build third-party modules for
+ your kernel. Use linux-headers-* packages for that.
+
