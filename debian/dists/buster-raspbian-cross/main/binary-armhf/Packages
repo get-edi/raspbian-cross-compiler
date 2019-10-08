@@ -206,6 +206,30 @@ Description: support library providing __atomic built-in functions (debug symbol
  be turned into lock-free instructions, GCC will make calls into this library.
 Build-Ids: 86dc539611c371991c918d63c651417b02c56db0
 
+Package: libc6
+Source: glibc
+Version: 2.28-10
+Architecture: armhf
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Installed-Size: 8981
+Recommends: libidn2-0 (>= 2.0.5~)
+Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales
+Conflicts: openrc (<< 0.27-2~)
+Breaks: hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.28), locales-all (<< 2.28), nocache (<< 1.1-1~), nscd (<< 2.28), r-cran-later (<< 0.7.5+dfsg-2)
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libc/libc.html
+Priority: optional
+Section: libs
+Filename: pool/main/g/glibc/libc6_2.28-10_armhf.deb
+Size: 2349836
+SHA256: e079fac0b6ad8b2e402938ffd97a16867a4ab1b8e7e7378f3aca6583190e7411
+SHA1: 46f1f5a4d9dba5a15633c8f50021b21f590d0b52
+MD5sum: 462ca32afbbcc5f0430027e9a88c997a
+Description: GNU C Library: Shared libraries
+ Contains the standard libraries that are used by nearly all programs on
+ the system. This package includes shared versions of the standard C library
+ and the standard math library, as well as many others.
+
 Package: libc6-armhf-cross
 Version: 2.28-10cross1
 Architecture: all
