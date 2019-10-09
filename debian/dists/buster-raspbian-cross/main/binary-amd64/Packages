@@ -1,3 +1,25 @@
+Package: binutils
+Version: 2.31.1-16
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 93
+Depends: libc6 (>= 2.27), zlib1g (>= 1:1.1.4), binutils-common (= 2.31.1-16), libbinutils (= 2.31.1-16), binutils-x86-64-linux-gnu (= 2.31.1-16)
+Suggests: binutils-doc (>= 2.31.1-16)
+Conflicts: binutils-mingw-w64-i686 (<< 2.23.52.20130612-1+3), binutils-mingw-w64-x86-64 (<< 2.23.52.20130612-1+3), binutils-multiarch (<< 2.27-8), modutils (<< 2.4.19-1)
+Provides: binutils-gold, elf-binutils
+Homepage: https://www.gnu.org/software/binutils/
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils/binutils_2.31.1-16_amd64.deb
+Size: 56760
+SHA256: 9d9d578ad3d709f9e83fa14bfa65eae86b0588be701c944ea5d092b56ff8cb1d
+SHA1: 5e3e914037bcc2ff25460678f2e9a2db470db858
+MD5sum: b6ce9c7a1d90a2e03f1e76b8203339e4
+Description: GNU assembler, linker and binary utilities
+ The programs in this package are used to assemble, link and manipulate
+ binary and object files.  They may be used in conjunction with a compiler
+ and various libraries to build programs.
+
 Package: cpp-8-arm-linux-gnueabihf
 Source: gcc-8-cross (26)
 Version: 8.3.0-6cross1
@@ -352,6 +374,46 @@ MD5sum: 01f2c8920fddab9b9fed4952ddf8eeaa
 Description: support library providing __atomic built-in functions
  library providing __atomic built-in functions. When an atomic call cannot
  be turned into lock-free instructions, GCC will make calls into this library.
+
+Package: libbinutils
+Source: binutils
+Version: 2.31.1-16
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 2954
+Depends: libc6 (>= 2.14), zlib1g (>= 1:1.2.0), binutils-common (= 2.31.1-16)
+Breaks: binutils (<< 2.29-6)
+Replaces: binutils (<< 2.29-6)
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/binutils/
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils/libbinutils_2.31.1-16_amd64.deb
+Size: 478640
+SHA256: 9d197f5830a0b04528c06df54f19a5ca7431f8d349a5739da40d3a50cb3082b7
+SHA1: 7cfdb8a0ff2329c47aa3666835ed0ccb8314dea0
+MD5sum: 382336f153ea31811e076551176395c1
+Description: GNU binary utilities (private shared library)
+ This package includes the private shared libraries libbfd and libopcodes.
+
+Package: libbinutils-dbg
+Source: binutils
+Version: 2.31.1-16
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 1384
+Depends: libbinutils (= 2.31.1-16)
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/binutils/
+Priority: optional
+Section: debug
+Filename: pool/main/b/binutils/libbinutils-dbg_2.31.1-16_amd64.deb
+Size: 1307164
+SHA256: dedbbf6a89ceb838d746d3a9fba3faa0c158f6a1b8d5b915fd6a5af68c5dab5e
+SHA1: 4971ade7d640f1191147fb0415d7cf9e3b76f153
+MD5sum: c2fd5bd3ca17af840691d0fbb21e9630
+Description: GNU binary utilities (private shared library, debug symbols)
+ This package provides debug symbols for libbinutils.
 
 Package: libc6-armhf-cross
 Version: 2.28-10cross1
