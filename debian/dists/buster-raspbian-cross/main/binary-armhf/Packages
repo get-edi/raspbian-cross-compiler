@@ -1450,6 +1450,27 @@ Description: UBSan -- undefined behaviour sanitizer (debug symbols)
  at runtime. Available for C and C++.
 Build-Ids: 0af89c047295cf5b0f54b99d6af8a38897ec510e
 
+Package: linux-libc-dev
+Source: linux
+Version: 4.19.67-2+deb10u1
+Architecture: armhf
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 4926
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux/linux-libc-dev_4.19.67-2+deb10u1_armhf.deb
+Size: 1214940
+SHA256: c0287f1712ac20840ea4e171530798e1a6d68553537915856c95a62ed369c3e4
+SHA1: b70e1abcc40a15ea7c1ec846e3d61b3a82aa758e
+MD5sum: c027b60333829686a0024e908734dd51
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These
+ headers are used by the installed headers for GNU libc and other system
+ libraries.
+
 Package: linux-libc-dev-armhf-cross
 Source: cross-toolchain-base (33)
 Version: 4.19.67-2+deb10u1cross1

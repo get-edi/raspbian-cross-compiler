@@ -845,6 +845,27 @@ Description: UBSan -- undefined behaviour sanitizer (runtime)
  Various computations will be instrumented to detect undefined behavior
  at runtime. Available for C and C++.
 
+Package: linux-libc-dev
+Source: linux
+Version: 4.19.67-2+deb10u1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 5020
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux/linux-libc-dev_4.19.67-2+deb10u1_amd64.deb
+Size: 1232532
+SHA256: 23292b304af87499504ed841f32ac19f8ee61d9ebc536e63014e5bbd54bc70ba
+SHA1: 4f66183e3f29f5c5eaa7922fe25df788eb7f7a58
+MD5sum: 1d846f0373d02f07625536a5b4132a66
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These
+ headers are used by the installed headers for GNU libc and other system
+ libraries.
+
 Package: linux-libc-dev-armhf-cross
 Source: cross-toolchain-base (33)
 Version: 4.19.67-2+deb10u1cross1
