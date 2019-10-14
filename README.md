@@ -38,7 +38,7 @@ The debian/rules2 file of gcc-8 will set the CPU options accordingly!
     * cd cross-toolchain-base-33
     * sudo apt-get build-dep cross-toolchain-base
     * debuild --set-envvar=CROSS_ARCHS=armhf -us -uc
-5. Install debs from previous step and also collect *.deb from the cross-toolchain-base-XX sub folder.
+5. Install debs from previous step and also collect *armhf.deb from the cross-toolchain-base-XX sub folder.
     * sudo dpkg -i ../*.deb
 6. Recompile gcc-8-cross for arm6hf:
     * apt-get source gcc-8-cross
